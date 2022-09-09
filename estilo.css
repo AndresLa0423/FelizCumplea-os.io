@@ -7,7 +7,7 @@ body {
           user-select: none;
   perspective: 1000px;
   margin: 0;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
 }
 @media (min-width: 320px) and (max-width: 1023px) {
@@ -21,7 +21,7 @@ body {
 }
 
 .invitation {
-  width: 500px;
+  width: 600px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -50,7 +50,7 @@ body {
   right: 0;
   border-bottom: 0px solid transparent;
   border-top: 307.6923076923px solid transparent;
-  border-right: 500px solid #ffdab9;
+  border-right: 600px solid #ffdab9;
   z-index: 1;
 }
 
@@ -58,14 +58,14 @@ body {
   left: 0;
   border-bottom: 0px solid transparent;
   border-top: 307.6923076923px solid transparent;
-  border-left: 500px solid #fbc4ab;
+  border-left: 600px solid #fbc4ab;
   z-index: 1;
 }
 
 .flap {
-  border-right: 250px solid transparent;
-  border-top: 153.8461538462px solid #e5989b;
-  border-left: 250px solid transparent;
+  border-right: 300px solid transparent;
+  border-top: 184.61538461544px solid #e5989b;
+  border-left: 300px solid transparent;
   position: absolute;
   left: 0;
   top: 0;
@@ -95,7 +95,7 @@ body {
   height: 670px;
   margin: auto;
   transform-style: preserve-3d;
-  transform-origin: 50% 10%;
+  transform-origin: 50% 100%;
   transform: translate(0, 128%) rotateY(0deg);
 }
 
@@ -106,7 +106,6 @@ body {
   left: 0;
   position: absolute;
   background: transparent 50% 100%/auto 100% no-repeat;
-  box-shadow: 0 3px 6x rgba(0, 0, 0, 0.3);
 }
 .face:last-of-type {
   transform: translateZ(-3px) rotateY(180deg);
@@ -114,6 +113,7 @@ body {
 
 .front {
   background-image: url(5.gif);
+  height: 125%;
 }
 .front h1 {
   position: relative;
@@ -143,7 +143,7 @@ body {
 
 .back {
   background-image: url(7.gif);
-
+  height: 125%;
 }
 
 .face.back img {
@@ -165,7 +165,7 @@ button {
   position: absolute;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   left: 50%;
-  top: 170px;
+  top: 200px;
   transform: translate(-50%, -50%);
   transform-origin: 50% 50%;
   z-index: 1;
