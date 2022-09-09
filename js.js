@@ -61,7 +61,7 @@ function pullOut() {
 			"button",
 			1,
 			{
-				y: "310px",
+				y: "440px",
 				ease: Circ.easeInOut,
 				onComplete: toggleText
 			},
